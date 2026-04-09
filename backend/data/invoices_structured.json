@@ -1,0 +1,18 @@
+[
+    {
+        "invoice_number": "INV-001",
+        "vendor": "XYZ Electronics",
+        "date": "2026-04-01",
+        "amount": 12345,
+        "gst": 18,
+        "category": "Electronics"
+    },
+    {
+        "invoice_number": "INV-002",
+        "vendor": "Uber India",
+        "date": "2026-04-03",
+        "amount": 450,
+        "gst": 5,
+        "category": "Travel"
+    }
+]
