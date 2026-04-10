@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const apiClient = axios.create({
   // Fallback to localhost, but allow Railway to inject the live URL
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5001/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://finsight-li08.onrender.com/api',
 });
 
 export const uploadInvoice = async (file) => {
