@@ -1,0 +1,14 @@
+{
+  "name": "finsight-parent",
+  "private": true,
+  "description": "Parent for Monorepo deployment",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "backend-start": "cd backend && npm start",
+    "frontend-build": "cd frontend && npm run build"
+  }
+}
